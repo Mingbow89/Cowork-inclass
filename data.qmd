@@ -1,5 +1,9 @@
 # Data
-
+I have Data.
 ## Description
-
+```{r}
+library(ggplot2)
+ggplot(mtcars,aes(x=mpg,y=wt))+
+  geom_point()
+```
 ## Missing value analysis
